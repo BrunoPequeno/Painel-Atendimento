@@ -1,1 +1,24 @@
-<p>table-component works!</p>
+<div class="table-component__container">
+    <div class="table-component__items">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Avião</th>
+                    <th>Horário de Embarque</th>
+                    <th>Previsão de Chegada</th>
+                    <th>Destino</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let voo of voos">
+                    <td>{{ voo.nomeAviao }}</td>
+                    <td>{{ voo.horarioEmbarque }}</td>
+                    <td>{{ voo.previsaoChegada }}</td>
+                    <td>{{ voo.destino }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

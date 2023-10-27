@@ -1,0 +1,15 @@
+.table-component__container {
+    align-items: center;
+    display: flex;
+    justify-content: row;
+    margin: auto;
+}
+
+.table-component__items > table {
+    margin: 250px 50px;
+}
+
+.table-component__items > table > thead {
+    padding: 10px;
+    align-items: baseline;
+}
