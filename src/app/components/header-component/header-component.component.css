@@ -1,7 +1,7 @@
 .menu-bar__container{
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: relative;
     z-index: 999;
     background-color: #ffff;
     width: 100%;

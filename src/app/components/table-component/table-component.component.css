@@ -1,15 +1,26 @@
-.table-component__container {
-    align-items: center;
-    display: flex;
-    justify-content: row;
-    margin: auto;
-}
-
-.table-component__items > table {
-    margin: 250px 50px;
-}
-
-.table-component__items > table > thead {
+.table-component__items {
+    margin: 50px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  th, td {
     padding: 10px;
-    align-items: baseline;
-}
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
