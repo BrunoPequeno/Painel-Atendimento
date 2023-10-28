@@ -1,7 +1,7 @@
 .table-component__items {
-    margin: 50px;
+    margin: 15px;
     text-align: center;
-    font-size: 16px;
+  
   }
   
   table {
@@ -12,12 +12,22 @@
   }
   
   th, td {
-    padding: 10px;
+    padding: 18px;
     border: 1px solid #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  th {
+    font-size: 28px;
+  }
+
+  td {
+    font-size: 22px;
+    font-weight: 460;
   }
   
   th {
-    background-color: #007BFF;
+    background-color: #4c16af;
     color: #fff;
   }
   

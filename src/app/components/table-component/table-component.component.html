@@ -3,20 +3,20 @@
         <table>
             <thead>
                 <tr>
-                    <th>Nome do Avião</th>
+                    <th> Nº Avião </th>
                     <th>Horário de Embarque</th>
                     <th>Previsão de Chegada</th>
                     <th>Destino</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr *ngFor="let voo of voos">
-                    <td>{{ voo.nomeAviao }}</td>
-                    <td>{{ voo.horarioEmbarque }}</td>
-                    <td>{{ voo.previsaoChegada }}</td>
-                    <td>{{ voo.destino }}</td>
-                </tr>
-            </tbody>
+                <tbody>
+                    <tr *ngFor="let voo of voos">
+                        <td>{{ voo.nomeAviao }}</td>
+                        <td>{{ voo.horarioEmbarque }}</td>
+                        <td>{{ voo.previsaoChegada }}</td>
+                        <td>{{ voo.destino }}</td>
+                    </tr>
+                </tbody>
         </table>
     </div>
 </div>
