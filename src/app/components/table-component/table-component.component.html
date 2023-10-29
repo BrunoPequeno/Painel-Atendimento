@@ -10,12 +10,12 @@
                 </tr>
             </thead>
                 <tbody>
-                    <tr *ngFor="let voo of voos">
+                    <tr *ngFor="let voo of displayedVoos">
                         <td>{{ voo.nomeAviao }}</td>
                         <td>{{ voo.horarioEmbarque }}</td>
                         <td>{{ voo.previsaoChegada }}</td>
                         <td>{{ voo.destino }}</td>
-                    </tr>
+                      </tr>
                 </tbody>
         </table>
     </div>
