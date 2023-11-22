@@ -16,10 +16,18 @@ export class HeaderComponentComponent implements OnInit {
     }, 1000);
   }
 
+  formatarNumero(numero: number): string {
+    return numero < 10 ? `0${numero}` : `${numero}`;
+  }
+
   atualizarDataHora() {
     const agora = new Date();
-    const data = agora.toLocaleDateString();
-    const hora = agora.toLocaleTimeString();
-    this.dataAtual = `${data} ${hora}`;
+
+    const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'numeric', day: 'numeric' };
+    const dataFormatada = agora.toLocaleDateString('pt-BR', options);
+
+    const horaFormatada = `${this.formatarNumero(agora.getHours())}:${this.formatarNumero(agora.getMinutes())}:${this.formatarNumero(agora.getSeconds())}`;
+
+    this.dataAtual = `${dataFormatada} ${horaFormatada}`;
   }
 }
