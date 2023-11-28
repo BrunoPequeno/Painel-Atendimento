@@ -8,13 +8,13 @@
 
 <div align="center">
   	<a href="#">
-      <img src="../assets/PreviewPainel.png" width="400" alt="preview" />
+      <img src="./src/assets/PreviewPainel.png" width="400" alt="preview" />
   	</a>
 </div>
 
   <!-- project description and menu -->
   <p align="center">
-      Preview do painel aeroportuário
+      Preview do painel desenvolvido
     <br />
     <br />
     <br />
