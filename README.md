@@ -8,7 +8,7 @@
 
 <div align="center">
   	<a href="#">
-      <img src=".assets/PreviewPainel.png" width="400" alt="preview" />
+      <img src="../assets/PreviewPainel.png" width="400" alt="preview" />
   	</a>
 </div>
 
@@ -26,9 +26,6 @@
     <a 
       href="https://github.com/BrunoPequeno/Painel-Atendimento/issues/new">
       Request Feature
-    </a>
-		<h2> Clique aqui e acesse a Aplicação </h2>
-		<a href="https://angular-santander-dev-week.vercel.app/"> Tela inicial Santander </a> 
   </p>
 </div>
 
