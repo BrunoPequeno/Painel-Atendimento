@@ -8,7 +8,7 @@
 
 <div align="center">
   	<a href="#">
-      <img src="./src/assets/PreviewPainel.png" width="400" alt="preview" />
+      <img src="./src/assets/PreviewPainel.png" width="700" alt="preview" />
   	</a>
 </div>
 
